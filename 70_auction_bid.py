@@ -1,4 +1,3 @@
-from replit import clear
 #HINT: You can call clear() to clear the output in the console.
 from auction_bid_art import logo
 print(logo)
@@ -24,5 +23,4 @@ while not bid_finished:
     bid_finished=True
     highest_bidder(bid_dict)
   elif more_bid=="yes":
-    clear()
 
